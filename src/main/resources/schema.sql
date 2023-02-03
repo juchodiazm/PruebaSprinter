@@ -1,0 +1,6 @@
+CREATE TABLE ITEM (
+  id          INTEGER PRIMARY KEY,
+  name          VARCHAR(64) NOT NULL,
+  description VARCHAR(64) NOT NULL,
+  price DOUBLE PRECISION NOT NULL
+ );
